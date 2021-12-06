@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lsp", "Lsp\Lsp.csproj", "{9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isp", "Isp\Isp.csproj", "{7F13FA03-6976-4B5B-9101-0F54E8FEEDFC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dip", "Dip\Dip.csproj", "{76149D4B-F599-4E74-83DE-D22EFBC66762}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7F13FA03-6976-4B5B-9101-0F54E8FEEDFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F13FA03-6976-4B5B-9101-0F54E8FEEDFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F13FA03-6976-4B5B-9101-0F54E8FEEDFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76149D4B-F599-4E74-83DE-D22EFBC66762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76149D4B-F599-4E74-83DE-D22EFBC66762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76149D4B-F599-4E74-83DE-D22EFBC66762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76149D4B-F599-4E74-83DE-D22EFBC66762}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
