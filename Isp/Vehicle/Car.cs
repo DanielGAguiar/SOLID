@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Isp.Vehicle
 {
-    class Car : IVehicles
+    class Car : IVehicleCar
     {
         private string _color;
         private int _year;
@@ -29,12 +25,7 @@ namespace Isp.Vehicle
             Console.WriteLine($"Criando um carro ano {year}, motor {engine}, da cor {color}, {seats} acentos e {doors} portas");
             StartVehicle();
         }
-
-        public void ConfigureMotocicle(string color, int year, double engine)
-        {
-           
-        }
-
+        
         public void StartVehicle()
         {
             Console.WriteLine("Ligando os motores!");

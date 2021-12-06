@@ -1,9 +1,6 @@
 ﻿using Isp.Vehicle;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Isp
 {
@@ -11,8 +8,8 @@ namespace Isp
     {
         static void Main(string[] args)
         {
-            Car car = new Car("Prata", 2020, 1.6, 5, 4);
-            Motocicle moto = new Motocicle("Preta", 2019, 250);
+            Car car = new Car("Verde", 2015, 1.8, 7, 4);
+            Motocicle moto = new Motocicle("Rosa", 2018, 250);
 
             Console.ReadLine();
         }
