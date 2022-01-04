@@ -1,4 +1,5 @@
-﻿using Dip.Model;
+﻿using Dip.Factory;
+using Dip.Model;
 using System;
 
 namespace Dip.Payment
@@ -7,7 +8,7 @@ namespace Dip.Payment
     {
         public void Pay(string id)
         {
-            SQLProdutProcess product = new SQLProdutProcess();
+            DBProduct product = DBProductFactory.Create();
             string productData = product.GetByProductId(id);
             Console.WriteLine(productData);
         }
