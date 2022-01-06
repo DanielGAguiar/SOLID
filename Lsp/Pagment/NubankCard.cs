@@ -15,7 +15,7 @@ namespace Lsp.Pagment
 
         public virtual void Validate()
         {
-            //Validacao do cartao
+            Console.WriteLine("Validacao do cartao");
         }
     }
 }

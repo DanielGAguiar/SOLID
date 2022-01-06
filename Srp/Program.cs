@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Srp.Utils;
+using System;
 
 namespace Srp
 {
@@ -6,6 +7,12 @@ namespace Srp
     {
         static void Main(string[] args)
         {
+            Client cliente = new Client();
+            String Nome = cliente.Createclient("Daniel");
+            Notify notificar = new Notify();
+            notificar.Notifyclient(Nome);
+            Console.ReadLine();
+
         }      
 
         

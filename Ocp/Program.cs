@@ -12,12 +12,10 @@ namespace Ocp
             if (type == TypeVehicle.Car)
             {
                 Car vehicle = new Car("Prata", 2019, 2.0, 5, 4);
-                
             }
             else
             {
                 Motocyclecs vehicle = new Motocyclecs("Branca", 2020, 250);
-                
             }
 
             Console.ReadLine();

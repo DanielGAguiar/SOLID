@@ -4,14 +4,14 @@ namespace Srp.Utils
 {
     class Notify
     {
-        public Notify(Client cliente)
+        public Notify()
         {
             
         }
 
-        public void Notifyclient(Client cliente)
+        public void Notifyclient(String cliente)
         {
-            Console.WriteLine("Notificar o cliente");
+            Console.WriteLine($"Notificar o cliente " + cliente);
         }
 
     }

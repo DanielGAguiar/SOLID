@@ -8,9 +8,11 @@ namespace Srp.Utils
 {
     class Client
     {
-        public void Createclient()
+        private String _nome;
+        public String Createclient(String nome)
         {
-
+            this._nome = nome;
+            return _nome;
         }
 
         public void Readclient()
